@@ -1,0 +1,98 @@
+/* Import Lexend Deca font */
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+body {
+    font-family: 'Lexend Deca', Arial, sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    display: flex;
+    width: 90%;
+    max-width: 1200px;
+    min-height: 90vh; /* Set a large minimum height */
+    background: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.image-section {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #1B2559;
+    height: 100%; /* Ensure the section takes full height */
+}
+
+.image-section img {
+    width: 100%;
+    height: 100%; /* Ensure the image takes full height */
+    object-fit: cover; /* Ensure the image covers the section without stretching */
+}
+
+.form-section {
+    flex: 1;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form-section h2 {
+    margin-bottom: 20px;
+    color: #1B2559;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    font-family: 'Lexend Deca', Arial, sans-serif;
+    background: #FFCC00;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #333;
+}
+
+p {
+    margin-top: 20px;
+    color: #333;
+}
+
+a {
+    color: #1B2559;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
